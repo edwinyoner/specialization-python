@@ -133,7 +133,7 @@ Este repositorio documenta todo mi aprendizaje durante la **Especialización en 
 Desarrollar una sólida comprensión del lenguaje Python aplicándola en:
 - **Desarrollo de aplicaciones GUI**
 - **Procesamiento de imágenes**
-- **Análisis de datos y machine learning**
+- **Análisis de datos, machine learning y deep learning**
 
 ---
 
