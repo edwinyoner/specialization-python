@@ -1,5 +1,5 @@
 """
-Archivo: fundamentos_python.py
+Archivo: programa_01.py
 Autor: Edwin Yoner
 Fecha: 16/01/2025
 
