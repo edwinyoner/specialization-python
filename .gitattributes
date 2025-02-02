@@ -1,42 +1,36 @@
-# Lenguajes de programación
-*.vhd linguist-detectable=true    # VHDL
-*.c linguist-detectable=true      # C
-*.cpp linguist-detectable=true    # C++
-*.java linguist-detectable=true   # Java
-*.go linguist-detectable=true     # Go
-*.py linguist-detectable=true     # Python
-*.php linguist-detectable=true    # PHP
-*.js linguist-detectable=true     # JavaScript
-*.ts linguist-detectable=true     # TypeScript
-*.html linguist-detectable=true   # HTML5
-*.css linguist-detectable=true    # CSS3
+*.vhd linguist-detectable=true
+*.c linguist-detectable=true
+*.cpp linguist-detectable=true
+*.java linguist-detectable=true
+*.go linguist-detectable=true
+*.py linguist-detectable=true
+*.php linguist-detectable=true
+*.js linguist-detectable=true
+*.ts linguist-detectable=true
+*.html linguist-detectable=true
+*.css linguist-detectable=true
 
-# Archivos de bases de datos
-*.sqlite linguist-detectable=true   # SQLite
-*.sql linguist-detectable=true      # MySQL, SQL Server, PostgreSQL
-*.orcl linguist-detectable=true     # Oracle
-*.mongo linguist-detectable=true    # MongoDB
+*.sqlite linguist-detectable=true
+*.sql linguist-detectable=true
+*.orcl linguist-detectable=true
+*.mongo linguist-detectable=true
 
-# Frameworks específicos
-*.blade.php linguist-detectable=true  # Laravel (PHP)
-*.vue linguist-detectable=true         # Vue.js
-*.jsx linguist-detectable=true         # React.js
-*.tsx linguist-detectable=true         # React con TypeScript
-*.angular linguist-detectable=true     # Angular (No es un archivo real, pero útil si se usa naming personalizado)
-*.spring linguist-detectable=true      # Spring Boot (Java)
+*.blade.php linguist-detectable=true
+*.vue linguist-detectable=true
+*.jsx linguist-detectable=true
+*.tsx linguist-detectable=true
+*.angular linguist-detectable=true
+*.spring linguist-detectable=true
 
-# Archivos de configuración y marcado
 *.json linguist-detectable=true
 *.xml linguist-detectable=true
 *.yaml linguist-detectable=true
 *.yml linguist-detectable=true
 *.toml linguist-detectable=true
 *.ini linguist-detectable=true
-*.md linguist-detectable=true          # Markdown
-*.adoc linguist-detectable=true        # AsciiDoc
+*.md linguist-detectable=true
+*.adoc linguist-detectable=true
 
-# Control de versiones
-*.git linguist-detectable=true         # Git
 *.gitattributes linguist-detectable=true
 *.gitignore linguist-detectable=true
 *.gitmodules linguist-detectable=true
