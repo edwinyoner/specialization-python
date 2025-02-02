@@ -1,4 +1,4 @@
-# Clase 6: Operadores en Python
+# Clase 6: Operadores
 
 ## Descripción
 
