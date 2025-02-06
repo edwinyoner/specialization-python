@@ -29,9 +29,9 @@ print(resultado)  # Salida: 5
 
 Las funciones pueden recibir valores llamados **parámetros** y usarlos dentro de su bloque de código. Los valores que se pasan a una función se llaman **argumentos**.
 
-![Definición de Funciones](images/10.1.png)
-
 ### Cantidad Determinada
+
+![Definición de Funciones](images/10.1.png)
 
 #### Parámetros por Posición
 
