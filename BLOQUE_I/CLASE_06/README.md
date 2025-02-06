@@ -132,8 +132,8 @@ print("pera" not in frutas)  # True
 
 ---
 
-## Sobre el Autor
+## 👨‍💻 Sobre el Autor
 
-- Nombre: Edwin Yoner
-- Correo: [edwinyoner@gmail.com](mailto:edwinyoner@gmail.com)
-- LinkedIn: [linkedin.com/in/edwinyoner](https://www.linkedin.com/in/edwinyoner)
+- **👤 Nombre:** Edwin Yoner
+- **📧 Contacto:** [✉ edwinyoner@gmail.com](mailto:edwinyoner@gmail.com)
+- **🔗 LinkedIn:** [🌐 linkedin.com/in/edwinyoner](https://www.linkedin.com/in/edwinyoner)

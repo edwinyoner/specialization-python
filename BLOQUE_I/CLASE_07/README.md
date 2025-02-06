@@ -79,7 +79,8 @@ A continuación, se presenta una vista general de los conceptos abordados en est
 
 ---
 
-## Sobre el Autor
-- **Nombre:** Edwin Yoner
-- **Correo:** [edwinyoner@gmail.com](mailto:edwinyoner@gmail.com)
-- **LinkedIn:** [linkedin.com/in/edwinyoner](https://www.linkedin.com/in/edwinyoner)
+## 👨‍💻 Sobre el Autor
+
+- **👤 Nombre:** Edwin Yoner
+- **📧 Contacto:** [✉ edwinyoner@gmail.com](mailto:edwinyoner@gmail.com)
+- **🔗 LinkedIn:** [🌐 linkedin.com/in/edwinyoner](https://www.linkedin.com/in/edwinyoner)

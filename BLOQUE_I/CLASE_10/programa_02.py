@@ -1,85 +1,113 @@
+"""
+Archivo: cantidad_indeterminada.py
+Autor: Edwin Yoner
+Fecha: 04/02/2025
 
-#CANTIDAD INDETERMINADA
-#Por posición/orden
+Descripción:
+    Este programa muestra el uso de funciones en Python con parámetros de 
+    cantidad indeterminada: por posición (*args), por nombre (**kwargs) 
+    y combinaciones de ambos.
+"""
+
+# Parámetros por posición ( *args )
 def suma(*args):
+    """
+    Retorna los valores pasados como argumentos en forma de tupla.
+    """
     return args
 
-r1 = suma(1, 2, 3, 4)
-print(r1)
+print("Suma por posición:", suma(1, 2, 3, 4))
 
-def sumaDeNumeros(*args):
-    suma = 0
-    for i in args:
-        suma += i
+print("\n")
 
-    return suma
+# Sumar n números usando *args
+def suma_de_numeros(*args):
+    """
+    Retorna la suma de todos los valores pasados como argumentos.
+    """
+    return sum(args)
 
-print("Suma de los n números es:", sumaDeNumeros(1, 2, 3))
+print("Suma de los n números es:", suma_de_numeros(1, 2, 3, 4, 5))
 
+print("\n")
+
+# Calcular el factorial de un número
 def factorial(valor):
+    """
+    Calcula el factorial de un número dado.
+    """
     fact = 1
-    for i in range(1, valor+1):
+    for i in range(1, valor + 1):
         fact *= i
     return fact
 
-print("El factorial de ", 5, " es: ", factorial(5))
+print(f"El factorial de 5 es: {factorial(5)}")
 
-#Por nombre
+print("\n")
+
+# Parámetros por nombre ( **kwargs )
 def suma(**kwargs):
+    """
+    Retorna los valores pasados como argumentos con nombre en forma de diccionario.
+    """
     return kwargs
 
-r = suma(a=1, b=2, c=3, d=4)
-print(r)
+print("Suma por nombre:", suma(a=1, b=2, c=3, d=4))
 
+print("\n")
+
+# Sumar valores usando **kwargs
 def suma(**kwargs):
-    total = 0
-    for valor in kwargs.values():
-        total += valor
-    return total
+    """
+    Retorna la suma de los valores en el diccionario de argumentos con nombre.
+    """
+    return sum(kwargs.values())
 
-r = suma(a=1, b=2, c=3, d=4)
-print("La suma es:", r)
+print("La suma es:", suma(a=1, b=2, c=3, d=4))
 
-def suma (**kwargs):
-    s=0
-    for i in kwargs:
-        s = s+kwargs[i]
-        return s
-r1= suma(a=1, b=2,c=3,d=4)
-print(r1)
+print("\n")
 
+# Iterar sobre un diccionario
 a = {'a': 1, 'b': 2, 'c': 3, 'd': 4}
-for i in a:
-    print(i, a[i])
+print("Iteración sobre un diccionario:")
+for clave, valor in a.items():
+    print(f"{clave}: {valor}")
 
-#Combinación
+print("\n")
+
+# Combinación de *args y **kwargs
 def suma(*args, **kwargs):
-    total1 = 0
-    for i in kwargs:
-        total1 += kwargs[i]
+    """
+    Retorna la suma de los valores en *args y **kwargs.
+    """
+    total_args = sum(args)
+    total_kwargs = sum(kwargs.values())
+    return total_args + total_kwargs
 
-    total2 = 0
-    for i in args:
-        total2 += i
-    return total1 + total2
+print("La suma total es:", suma(3, 4, 3, a=1, b=2, c=3, d=4))
 
-r = suma(3, 4, 3, a = 1, b = 2, c = 3, d = 4)
-print("La suma es total es:", r)
+print("\n")
 
+# Combinación con parámetros por defecto
 def suma(x, y, *args, w=0, z=1, **kwargs):
-    return x+y+z
+    """
+    Retorna la suma de los valores x, y y z, ignorando otros argumentos.
+    """
+    return x + y + z
 
-r1 = suma(1,2,3,4,6)
-print(r1)
+print("Suma combinada 1:", suma(1, 2, 3, 4, 6))
+print("Suma combinada 2:", suma(1, 2, 3, z=2))
+print("Suma combinada 3:", suma(1, 2, 3, a=2, b=3))
 
-r1 = suma(1,2,3,z=2)
-print(r1)
+print("\n")
 
-r1 = suma(1,2,3,a=2,b=3)
-print(r1)
-
-def suma(*args,w=0,z=1, **kwargs):
+# Retornar solo los valores **kwargs
+def suma(*args, w=0, z=1, **kwargs):
+    """
+    Retorna el diccionario de argumentos con nombre.
+    """
     return kwargs
-r1=suma(1,2,3,4,6)
-r2 =suma(1,2,3,z = 2)
-r3=suma(1,2,3,a = 2)
+
+print("Solo kwargs 1:", suma(1, 2, 3, 4, 6))
+print("Solo kwargs 2:", suma(1, 2, 3, z=2))
+print("Solo kwargs 3:", suma(1, 2, 3, a=2))
