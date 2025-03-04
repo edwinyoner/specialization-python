@@ -236,7 +236,7 @@ cv2.destroyAllWindows()
 
 - `imagen[:, :, 2]` → Canal **Rojo** (R).
 
-- ![Espacios de Color](images/22.15.3.png)
+![Espacios de Color](images/22.15.3.png)
 
 3. **Modificación de los canales de color**  
    Se crean copias de la imagen original y se eliminan progresivamente cada uno de los canales estableciendo su valor en `0`.
