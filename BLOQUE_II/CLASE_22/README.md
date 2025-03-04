@@ -226,12 +226,17 @@ cv2.destroyAllWindows()
 
 2. **Visualización de los canales de color**  
    OpenCV almacena las imágenes en formato **BGR** (en lugar de RGB), por lo que los canales se extraen en el siguiente orden:
-   - `imagen[:, :, 0]` → Canal **Azul** (B).
+- `imagen[:, :, 0]` → Canal **Azul** (B).
+
 ![Espacios de Color](images/22.15.1.png)
-   - `imagen[:, :, 1]` → Canal **Verde** (G).
+
+- `imagen[:, :, 1]` → Canal **Verde** (G).
+
 ![Espacios de Color](images/22.15.2.png)
-   - `imagen[:, :, 2]` → Canal **Rojo** (R).
-![Espacios de Color](images/22.15.3.png)
+
+- `imagen[:, :, 2]` → Canal **Rojo** (R).
+
+- ![Espacios de Color](images/22.15.3.png)
 
 3. **Modificación de los canales de color**  
    Se crean copias de la imagen original y se eliminan progresivamente cada uno de los canales estableciendo su valor en `0`.
