@@ -84,7 +84,8 @@ print(cruz)  # [-15  2  6]
 
 ---
 
-## 👨‍💻 Sobre el Autor  
-- **👤 Nombre:** Edwin Yoner  
-- **💎 Contacto:** [✉ edwinyoner@gmail.com](mailto:edwinyoner@gmail.com)  
-- **🌐 LinkedIn:** [🌐 linkedin.com/in/edwinyoner](https://www.linkedin.com/in/edwinyoner)
+## 👨‍💻 Sobre el Autor
+
+- **👤 Nombre:** Edwin Yoner
+- **📧 Contacto:** [✉ edwinyoner@gmail.com](mailto:edwinyoner@gmail.com)
+- **🔗 LinkedIn:** [🌐 linkedin.com/in/edwinyoner](https://www.linkedin.com/in/edwinyoner)

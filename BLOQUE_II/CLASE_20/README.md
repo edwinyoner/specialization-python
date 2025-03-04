@@ -58,6 +58,6 @@ Las bases de datos son esenciales para el almacenamiento y gestión de informaci
 ## 👨‍💻 Sobre el Autor
 
 - **👤 Nombre:** Edwin Yoner
-- **💎 Contacto:** [✉ edwinyoner@gmail.com](mailto:edwinyoner@gmail.com)
-- **🌐 LinkedIn:** [🌐 linkedin.com/in/edwinyoner](https://www.linkedin.com/in/edwinyoner)
+- **📧 Contacto:** [✉ edwinyoner@gmail.com](mailto:edwinyoner@gmail.com)
+- **🔗 LinkedIn:** [🌐 linkedin.com/in/edwinyoner](https://www.linkedin.com/in/edwinyoner)
 
