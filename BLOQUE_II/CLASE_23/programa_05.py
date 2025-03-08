@@ -1,7 +1,7 @@
 """
 Archivo: programa_05.py
 Autor: Edwin Yoner
-Fecha: 01/03/2025
+Fecha: 03/03/2025
 
 Descripción:
     - Este script carga una imagen en color y aplica una máscara binaria.
